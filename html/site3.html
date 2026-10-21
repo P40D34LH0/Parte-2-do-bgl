@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asylum Creature Research</title>
+  <link rel="shortcut icon" href="../img/10h_icon_alt.png" type="image/png">
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body class="page-research">
+  <header class="research-header">
+    <h1 class="research-title">Asylum creature research</h1>
+  </header>
+
+  <main class="quiz-container">
+    <div class="quiz-score">
+      <span class="score-correct">V: <span id="correct-count">0</span></span>
+      <span class="score-wrong">X: <span id="wrong-count">0</span></span>
+    </div>
+
+    <div id="quiz-box" class="quiz-box">
+      <div class="creature-display">
+        <img id="creature-img" src="" alt="Criatura" class="creature-img">
+        <h2 id="creature-name" class="creature-name"></h2>
+      </div>
+
+      <div class="question-banner">
+        <p id="question-text"></p>
+      </div>
+
+      <div id="options-grid" class="options-grid">
+      </div>
+    </div>
+
+    <div id="feedback-correct" class="feedback-correct hidden">
+      <div class="feedback-content">
+        <img src="../img/Tar_Thumbs_Up.png" alt="Tar Thumbs Up" class="tar-img">
+        <div class="tar-bubble">Boa, doido! Continue assim</div>
+      </div>
+    </div>
+
+    <div id="final-result" class="final-result hidden">
+      <div class="result-content">
+        <h2 id="final-eval" class="final-eval"></h2>
+        <p id="final-stats" class="final-stats"></p>
+        <a href="../html/site.html" class="btn btn-blue-back">Voltar para o Início</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-info">
+      <p class="footer-nick">P40D34LH099</p>
+      <p class="footer-rights">Direitos Reservados (eu acho)</p>
+    </div>
+    <img src="../img/BAL_Wave_Plus_V0.8.1.png" alt="Baldi Wave" class="footer-img">
+  </footer>
+
+  <script src="../js/codigo.js"></script>
+</body>
+</html>
